@@ -1,0 +1,20 @@
+@model EmployeePortal.Models.Employee
+
+<h2>Edit Employee</h2>
+<form asp-action="Edit" method="post" class="form-horizontal">
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name:</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label for="Department" class="form-label">Department:</label>
+        <input asp-for="Department" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email:</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+</form>
