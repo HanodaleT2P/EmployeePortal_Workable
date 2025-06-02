@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\services\\employeeadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\services\\employeeadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,15 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeADOService.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeADOService.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Services\\EmployeeADOService.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeADOService.cs",
+              "RelativeToolTip": "EmployeePortal\\Services\\EmployeeADOService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:19:40.34Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Edit.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Edit.cshtml",
@@ -71,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Program.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Program.cs",
@@ -84,33 +97,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Services\\EmployeeService.cs",
               "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeService.cs",
               "RelativeToolTip": "EmployeePortal\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T12:21:54.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "EmployeePortal\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T12:19:27.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\appsettings.json",
               "RelativeDocumentMoniker": "EmployeePortal\\appsettings.json",
@@ -123,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Index.cshtml",
@@ -136,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Create.cshtml",
@@ -148,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Models\\Employee.cs",
@@ -160,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Listing.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Listing.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Listing.cshtml",
@@ -172,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Details.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Details.cshtml",
