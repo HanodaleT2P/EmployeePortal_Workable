@@ -92,7 +92,7 @@
             <h4 class="mb-0">Create Employee</h4>
         </div>
         <div class="card-body">
-            <form id="employeeForm" method="post" novalidate>
+            <form id="employeeForm">
                 <div id="alertPlaceholder"></div>
                 <div class="row g-3">
                     <div class="col-md-6">
@@ -114,6 +114,11 @@
                         <label asp-for="Age" class="form-label">Age</label>
                         <input asp-for="Age" type="number" class="form-control" id="age" />
                         <div class="invalid-feedback">Please enter age.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Salary" class="form-label">Salary</label>
+                        <input asp-for="Salary" type="number" class="form-control" id="salary" />
+                        <div class="invalid-feedback">Please enter salary.</div>
                     </div>
                 </div>
 
@@ -149,24 +154,28 @@
         let dept = $('#department').val().trim();
         let email = $('#email').val().trim();
         let age = $('#age').val().trim();
+          let salary = $('#salary').val().trim();
 
         // Validate inputs
         if (name === '') { $('#name').addClass('is-invalid'); isValid = false; } else { $('#name').removeClass('is-invalid'); }
         if (dept === '') { $('#department').addClass('is-invalid'); isValid = false; } else { $('#department').removeClass('is-invalid'); }
         if (email === '') { $('#email').addClass('is-invalid'); isValid = false; } else { $('#email').removeClass('is-invalid'); }
         if (age === '') { $('#age').addClass('is-invalid'); isValid = false; } else { $('#age').removeClass('is-invalid'); }
+         if (salary === '') { $('#v').addClass('is-invalid'); isValid = false; } else { $('#salary').removeClass('is-invalid'); }
 
         if (!isValid) return;
-
+         debugger;
         // Send data via AJAX
         $.ajax({
+           
             url: '/Employee/Create',
             method: 'POST',
             data: {
                 Name: name,
                 Department: dept,
                 Email: email,
-                Age: age
+                Age: age,
+                salary:salary
             },
             success: function (response) {
                 $('#alertPlaceholder').html(`

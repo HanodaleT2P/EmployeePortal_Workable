@@ -19,5 +19,9 @@ namespace EmployeePortal.Models
         [Range(1, 120, ErrorMessage = "Age must be between 1 and 120")]
         public int Age { get; set; }
 
+        [Required(ErrorMessage = "Salary is required")]
+        [Range(1, 120, ErrorMessage = "Salary must be decimal")]
+        public decimal Salary { get; set; }
+
     }
 }

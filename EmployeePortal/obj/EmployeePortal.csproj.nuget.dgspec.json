@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hanodale\\Training\\EmployeePortal_Workable\\EmployeePortal\\EmployeePortal.csproj": {}
+    "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\EmployeePortal.csproj": {}
   },
   "projects": {
-    "D:\\Hanodale\\Training\\EmployeePortal_Workable\\EmployeePortal\\EmployeePortal.csproj": {
+    "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\EmployeePortal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hanodale\\Training\\EmployeePortal_Workable\\EmployeePortal\\EmployeePortal.csproj",
+        "projectUniqueName": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\EmployeePortal.csproj",
         "projectName": "EmployeePortal",
-        "projectPath": "D:\\Hanodale\\Training\\EmployeePortal_Workable\\EmployeePortal\\EmployeePortal.csproj",
+        "projectPath": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\EmployeePortal.csproj",
         "packagesPath": "C:\\Users\\dhiviya.ag\\.nuget\\packages\\",
-        "outputPath": "D:\\Hanodale\\Training\\EmployeePortal_Workable\\EmployeePortal\\obj\\",
+        "outputPath": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -55,6 +55,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
