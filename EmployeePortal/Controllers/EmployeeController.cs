@@ -6,9 +6,9 @@ namespace EmployeePortal.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly EmployeeService _repo;
+        private readonly EmployeeADOService _repo;
 
-        public EmployeeController(EmployeeService repo)
+        public EmployeeController(EmployeeADOService repo)
         {
             _repo = repo;
         }

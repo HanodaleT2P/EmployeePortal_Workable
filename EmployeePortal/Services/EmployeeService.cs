@@ -6,11 +6,11 @@ using Microsoft.Data.SqlClient;
 
 namespace EmployeePortal.Services
 {
-    public class EmployeeService
+    public class EmployeeADOService
     {
         private readonly string _connectionString;
 
-        public EmployeeService(IConfiguration configuration)
+        public EmployeeADOService(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
             if (string.IsNullOrEmpty(_connectionString))
@@ -72,7 +72,7 @@ namespace EmployeePortal.Services
 
             if (reader.Read())
             {
-                emp =  new Employee
+                emp = new Employee
                 {
                     Id = (int)reader["Id"],
                     Name = reader["Name"].ToString(),
