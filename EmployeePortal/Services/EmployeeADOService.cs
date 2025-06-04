@@ -19,101 +19,175 @@ namespace EmployeePortal.Services
             }
         }
 
-        public List<Employee> GetAllEmployees()
+        public List<EmployeeViewModel> GetAll()
         {
-            var list = new List<Employee>();
-            using var con = new SqlConnection(_connectionString);
-            using var cmd = new SqlCommand("sp_GetAllEmployees", con);
-            cmd.CommandType = CommandType.StoredProcedure;
+            var list = new List<EmployeeViewModel>();
 
-            con.Open();
-            using var reader = cmd.ExecuteReader();
-            while (reader.Read())
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_GetEmployees", con))
             {
-                list.Add(new Employee
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
+
+                using (SqlDataReader dr = cmd.ExecuteReader())
                 {
-                    Id = (int)reader["Id"],
-                    Name = reader["Name"].ToString(),
-                    Email = reader["Email"].ToString(),
-                    Department = reader["Department"].ToString(),
-                    Salary = (decimal)reader["Salary"],
-                    Age = (int)reader["Age"]
-                });
+                    while (dr.Read())
+                    {
+                        list.Add(new EmployeeViewModel
+                        {
+                            EmployeeId = (int)dr["Employee_Id"],
+                            Name = dr["Name"].ToString(),
+                            Email = dr["Email"].ToString(),
+                            HireDate = (DateTime)dr["HireDate"],
+                            DepartmentName = dr["DepartmentName"].ToString()
+                        });
+                    }
+                }
             }
+
             return list;
         }
 
-        public void InsertEmployee(Employee emp)
+
+        public Employees GetById(int id)
         {
-            using var con = new SqlConnection(_connectionString);
-            using var cmd = new SqlCommand("sp_InsertEmployee", con);
-            cmd.CommandType = CommandType.StoredProcedure;
-
-            cmd.Parameters.AddWithValue("@Name", emp.Name);
-            cmd.Parameters.AddWithValue("@Email", emp.Email);
-            cmd.Parameters.AddWithValue("@Department", emp.Department);
-            cmd.Parameters.AddWithValue("@Salary", emp.Salary);
-            cmd.Parameters.AddWithValue("@Age", emp.Age);
-
-            con.Open();
-            cmd.ExecuteNonQuery();
-        }
-
-        public Employee GetEmployeeById(int id)
-        {
-            Employee emp = new Employee();
-            using var con = new SqlConnection(_connectionString);
-            using var cmd = new SqlCommand("sp_GetEmployeeById", con);
-            cmd.CommandType = CommandType.StoredProcedure;
-
-            cmd.Parameters.AddWithValue("@Id", id);
-            con.Open();
-            using var reader = cmd.ExecuteReader();
-
-            if (reader.Read())
+            Employees emp = null;
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_GetEmployeeById", con))
             {
-                emp = new Employee
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@EmployeeId", id);
+                con.Open();
+                using (SqlDataReader dr = cmd.ExecuteReader())
                 {
-                    Id = (int)reader["Id"],
-                    Name = reader["Name"].ToString(),
-                    Email = reader["Email"].ToString(),
-                    Department = reader["Department"].ToString(),
-                    Age = (int)reader["Age"],
-                    Salary = (decimal)reader["Salary"]
-                };
+                    if (dr.Read())
+                    {
+                        emp = new Employees
+                        {
+                            EmployeeId = (int)dr["Employee_Id"],
+                            Name = dr["Name"].ToString(),
+                            Email = dr["Email"].ToString(),
+                            HireDate = (DateTime)dr["HireDate"],
+                            DepartmentId = (int)dr["Department_Id"]
+                        };
+                    }
+                }
             }
             return emp;
         }
 
-        public void UpdateEmployee(Employee emp)
+        public void Add(Employees emp)
         {
-            using var con = new SqlConnection(_connectionString);
-            using var cmd = new SqlCommand("sp_UpdateEmployee", con);
-            cmd.CommandType = CommandType.StoredProcedure;
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_AddEmployee", con))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Name", emp.Name);
+                cmd.Parameters.AddWithValue("@Email", emp.Email);
+                cmd.Parameters.AddWithValue("@HireDate", emp.HireDate);
+                cmd.Parameters.AddWithValue("@DepartmentId", emp.DepartmentId);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+        public bool IsEmailDuplicate(string email, int? employeeId = null)
+        {
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            {
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand("sp_CheckDuplicateEmail", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@EmployeeId", employeeId ?? 0); // 0 or NULL for new records
 
-            cmd.Parameters.AddWithValue("@Id", emp.Id);
-            cmd.Parameters.AddWithValue("@Name", emp.Name);
-            cmd.Parameters.AddWithValue("@Email", emp.Email);
-            cmd.Parameters.AddWithValue("@Department", emp.Department);
-            cmd.Parameters.AddWithValue("@Salary", emp.Salary);
-            cmd.Parameters.AddWithValue("@Age", emp.Age);
-
-            con.Open();
-            cmd.ExecuteNonQuery();
+                    int count = (int)cmd.ExecuteScalar();
+                    return count > 0;
+                }
+            }
         }
 
-        public void DeleteEmployee(int id)
+        public List<Department> GetDepartments()
         {
-            using var con = new SqlConnection(_connectionString);
-            using var cmd = new SqlCommand("sp_DeleteEmployee", con);
-            cmd.CommandType = CommandType.StoredProcedure;
+            var list = new List<Department>();
 
-            cmd.Parameters.AddWithValue("@Id", id);
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_GetDepartment", con))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
 
-            con.Open();
-            cmd.ExecuteNonQuery();
+                using (SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        list.Add(new Department
+                        {
+                            DepartmentId = (int)dr["Department_Id"],
+                            Name = dr["Name"].ToString(),
+                            LocationId = (int)dr["Location_Id"]
+                        });
+                    }
+                }
+            }
+
+            return list;
+        }
+        public List<Location> GetLocations()
+        {
+            var list = new List<Location>();
+
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_GetLocation", con))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
+
+                using (SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        list.Add(new Location
+                        {
+                            LocationId = (int)dr["Location_Id"],
+                            Name = dr["Name"].ToString(),
+                            City = dr["City"].ToString()
+                        });
+                    }
+                }
+            }
+
+            return list;
         }
 
+
+        public void Update(Employees emp)
+        {
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_UpdateEmployee", con))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@EmployeeId", emp.EmployeeId);
+                cmd.Parameters.AddWithValue("@Name", emp.Name);
+                cmd.Parameters.AddWithValue("@Email", emp.Email);
+                cmd.Parameters.AddWithValue("@HireDate", emp.HireDate);
+                cmd.Parameters.AddWithValue("@DepartmentId", emp.DepartmentId);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void Delete(int id)
+        {
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand("sp_DeleteEmployee", con))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@EmployeeId", id);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
         //Sample with inline queries
         //public void Add(Employee emp)
         //{

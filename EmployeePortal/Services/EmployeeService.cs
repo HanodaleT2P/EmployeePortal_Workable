@@ -21,7 +21,7 @@ namespace EmployeePortal.Services
             employee.Id = _employees.Max(e => e.Id) + 1;
             _employees.Add(employee);
         }
-
+        
         public static void Update(Employee employee)
         {
             var index = _employees.FindIndex(e => e.Id == employee.Id);

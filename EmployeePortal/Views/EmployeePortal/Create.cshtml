@@ -1,0 +1,67 @@
+﻿@model EmployeeCreateViewModel
+@{
+    // Define a variable with the date to display
+    var displayDate = Model.Employee.HireDate == default(DateTime)
+                      ? DateTime.Now
+                      : Model.Employee.HireDate;
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow rounded">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">
+                        @(Model.Employee.EmployeeId == 0 ? "Create New Employee" : "Edit Employee")
+                    </h4>
+                </div>
+
+                <div class="card-body">
+                    <form asp-action="@(Model.Employee.EmployeeId == 0 ? "Create" : "Edit")" method="post" novalidate>
+                        @* Hidden field for Edit *@
+                        <input type="hidden" asp-for="Employee.EmployeeId" />
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Employee.Name" class="form-label"></label>
+                            <input asp-for="Employee.Name" class="form-control" />
+                            <span asp-validation-for="Employee.Name" class="text-danger small"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Employee.Email" class="form-label"></label>
+                            <input asp-for="Employee.Email" class="form-control" />
+                            <span asp-validation-for="Employee.Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Employee.HireDate" class="form-label"></label>
+                            <input asp-for="Employee.HireDate" class="form-control" value="@displayDate.ToString("yyyy-MM-dd")"  type="date" />
+                            <span asp-validation-for="Employee.HireDate" class="text-danger small"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="Employee.DepartmentId" class="form-label">Department</label>
+                            <select asp-for="Employee.DepartmentId" asp-items="Model.Department" class="form-select">
+                                <option value="0">-- Select Department --</option>
+                            </select>
+                            <span asp-validation-for="Employee.DepartmentId" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-success me-2">
+                                @(Model.Employee.EmployeeId == 0 ? "Create" : "Update")
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

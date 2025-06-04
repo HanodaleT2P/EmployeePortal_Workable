@@ -1,4 +1,4 @@
-@model List<EmployeePortal.Models.Employee>
+@model List<EmployeePortal.Models.Employees>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
@@ -37,27 +37,25 @@
         <table class="table table-bordered">
             <thead class="thead-light">
                 <tr>
-                    <th>Name</th>
-                    <th>Department</th>
-                    <th>Email</th>
-                    <th>Salary</th>
-                    <th>Age</th>
-                    <th>Actions</th>
+                   <th>Name</th>
+            <th>Email</th>
+            <th>Hire Date</th>
+            <th>Department</th>
+            <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var emp in Model)
+                @foreach (var item in Model)
                 {
                     <tr>
-                        <td>@emp.Name</td>
-                        <td>@emp.Department</td>
-                        <td>@emp.Email</td>
-                           <td>@emp.Salary</td>
-                        <td>@emp.Age</td>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
+                        <td>@item.HireDate.ToShortDateString()</td>
+                        <td>@item.DepartmentId</td>
                         <td>
-                            <a href="/Employee/Details/@emp.Id">Details</a> |
-                            <a href="/Employee/Edit/@emp.Id">Edit</a> |
-                            <a href="/Employee/Delete/@emp.Id" onclick="return confirm('Are you sure?')">Delete</a>
+                            <a href="/Employee/Details/@item.EmployeeId">Details</a> |
+                            <a href="/Employee/Edit/@item.EmployeeId">Edit</a> |
+                            <a href="/Employee/Delete/@item.EmployeeId" onclick="return confirm('Are you sure?')">Delete</a>
                         </td>
                     </tr>
                 }
@@ -76,13 +74,13 @@
                             <div class="card-body d-flex flex-column justify-content-between">
                                 <div>
                                     <h5 class="card-title">@emp.Name</h5>
-                                    <p class="card-text">Department: @emp.Department</p>
+                                    <p class="card-text">Department: @emp.DepartmentId</p>
                                     <button class="btn btn-sm btn-primary show-email mb-2">Show Email</button>
                                     <p class="email-text" style="display:none;">@emp.Email</p>
                                 </div>
                                 <div class="mt-3">
-                                    <a href="/Employee/Edit/@emp.Id" class="btn btn-sm btn-warning mr-2">Edit</a>
-                                    <a href="/Employee/Delete/@emp.Id" class="btn btn-sm btn-danger mr-2" onclick="return confirm('Are you sure?')">Delete</a>
+                                    <a href="/Employee/Edit/@emp.EmployeeId" class="btn btn-sm btn-warning mr-2">Edit</a>
+                                    <a href="/Employee/Delete/@emp.EmployeeId" class="btn btn-sm btn-danger mr-2" onclick="return confirm('Are you sure?')">Delete</a>
                                   
                                 </div>
                             </div>

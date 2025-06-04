@@ -1,33 +1,43 @@
-@model EmployeePortal.Models.Employee
+@model EmployeeCreateViewModel
 
 <h2>Edit Employee</h2>
-<form asp-action="Update" method="post" class="form-horizontal">
+
+<form asp-action="Edit" method="post" class="mt-4">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Employee.EmployeeId" />
+
     <div class="mb-3">
-       
-        <input asp-for="Id" class="form-control" hidden />
+        <label asp-for="Employee.Name" class="form-label"></label>
+        <input asp-for="Employee.Name" class="form-control" />
+        <span asp-validation-for="Employee.Name" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
-        <label for="Name" class="form-label">Name:</label>
-        <input asp-for="Name" class="form-control" />
+        <label asp-for="Employee.Email" class="form-label"></label>
+        <input asp-for="Employee.Email" type="email" class="form-control" />
+        <span asp-validation-for="Employee.Email" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
-        <label for="Department" class="form-label">Department:</label>
-        <input asp-for="Department" class="form-control" />
+        <label asp-for="Employee.HireDate" class="form-label"></label>
+        <input asp-for="Employee.HireDate" type="date" class="form-control" />
+        <span asp-validation-for="Employee.HireDate" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
-        <label for="Age" class="form-label">Age:</label>
-        <input asp-for="Age" class="form-control" />
+        <label asp-for="Employee.DepartmentId" class="form-label"></label>
+        <select asp-for="Employee.DepartmentId" asp-items="Model.Department" class="form-select">
+            <option value="">-- Select Department --</option>
+        </select>
+        <span asp-validation-for="Employee.DepartmentId" class="text-danger"></span>
     </div>
-    <div class="mb-3">
-        <label for="Email" class="form-label">Email:</label>
-        <input asp-for="Email" class="form-control" />
-    </div>
-    <div class="mb-3">
-        <label for="Salary" class="form-label">Salary:</label>
-        <input asp-for="Salary" class="form-control" />
-    </div>
-    <div class="mb-3">
-        <button type="submit" class="btn btn-primary">Update</button>
-        <a href="/Employee/Index" class="btn btn-secondary">Cancel</a>
-    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
 </form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
