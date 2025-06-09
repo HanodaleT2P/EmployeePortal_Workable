@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using EmployeePortal.Models;
 using EmployeePortal.Services;
+using EmployeePortal.Models.EmployeePortalEF;
 
 namespace EmployeePortal.Controllers
 {

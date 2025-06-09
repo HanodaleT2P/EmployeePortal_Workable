@@ -1,0 +1,8 @@
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.AssemblyInfoInputs.cache
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.AssemblyInfo.cs
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.csproj.CoreCompileInputs.cache
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.MvcApplicationPartsAssemblyInfo.cache
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.RazorAssemblyInfo.cache
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.RazorAssemblyInfo.cs
+D:\Hanodale\Training\EmployeePortal_Workable1\obj\Debug\net9.0\EmployeePortal_Workable1.sourcelink.json

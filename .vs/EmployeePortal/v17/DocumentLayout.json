@@ -3,60 +3,84 @@
   "WorkspaceRootPath": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employeeportal\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employeeportal\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\controllers\\employeeportalefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\employeeportalefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\controllers\\employeeportalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\employeeportalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employeeportalef\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employeeportalef\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employeeportalef\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employeeportalef\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\models\\employeeportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\employeeportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\controllers\\employeeportalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\employeeportalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\services\\employeeefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\services\\employeeefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\services\\employeeadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\services\\employeeadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\interfaces\\iemployeeefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\interfaces\\iemployeeefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employeeportal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employeeportal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employeeportalef\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employeeportalef\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employeeportal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employeeportal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\models\\employeeportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\employeeportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\models\\employeeportalef\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\employeeportalef\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\models\\employeeportalef\\projectassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\employeeportalef\\projectassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\models\\employeeportalef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\employeeportalef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\employeeportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\employeeportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DD0B52F-E8E5-459A-9679-278036EA2092}|EmployeePortal\\EmployeePortal.csproj|d:\\hanodale\\training\\employeeportal_workable1\\employeeportal\\views\\employee\\listing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,80 +98,245 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeePortal.cs",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortal.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Models\\EmployeePortal.cs",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortal.cs",
-              "RelativeToolTip": "EmployeePortal\\Models\\EmployeePortal.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA9wCQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T11:58:27.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "EmployeePortal\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T08:47:48.813Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmployeePortalEFController.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeePortalEFController.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Controllers\\EmployeePortalEFController.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeePortalEFController.cs",
+              "RelativeToolTip": "EmployeePortal\\Controllers\\EmployeePortalEFController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T03:58:38.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortal\\Create.cshtml",
-              "RelativeDocumentMoniker": "EmployeePortal\\Views\\EmployeePortal\\Create.cshtml",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortal\\Create.cshtml",
-              "RelativeToolTip": "EmployeePortal\\Views\\EmployeePortal\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAACAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortalEF\\Create.cshtml",
+              "RelativeDocumentMoniker": "EmployeePortal\\Views\\EmployeePortalEF\\Create.cshtml",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortalEF\\Create.cshtml",
+              "RelativeToolTip": "EmployeePortal\\Views\\EmployeePortalEF\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-04T12:21:34.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortalEF\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeePortal\\Views\\EmployeePortalEF\\Index.cshtml",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortalEF\\Index.cshtml",
+              "RelativeToolTip": "EmployeePortal\\Views\\EmployeePortalEF\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswEcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T12:22:30.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "EmployeePortal\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T08:47:48.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeEFService.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeEFService.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Services\\EmployeeEFService.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeEFService.cs",
+              "RelativeToolTip": "EmployeePortal\\Services\\EmployeeEFService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T04:05:37.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EmployeePortalController.cs",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeePortalController.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Controllers\\EmployeePortalController.cs",
               "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeePortalController.cs",
               "RelativeToolTip": "EmployeePortal\\Controllers\\EmployeePortalController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T12:25:52.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "IEmployeeEFService.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Interfaces\\IEmployeeEFService.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Interfaces\\IEmployeeEFService.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Interfaces\\IEmployeeEFService.cs",
+              "RelativeToolTip": "EmployeePortal\\Interfaces\\IEmployeeEFService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T04:06:24.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EmployeeADOService.cs",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeADOService.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Services\\EmployeeADOService.cs",
               "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeADOService.cs",
               "RelativeToolTip": "EmployeePortal\\Services\\EmployeeADOService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAA4wF0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAG0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T12:19:40.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortalEF\\Details.cshtml",
+              "RelativeDocumentMoniker": "EmployeePortal\\Views\\EmployeePortalEF\\Details.cshtml",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortalEF\\Details.cshtml",
+              "RelativeToolTip": "EmployeePortal\\Views\\EmployeePortalEF\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T13:03:57.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeePortal.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortal.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Models\\EmployeePortal.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortal.cs",
+              "RelativeToolTip": "EmployeePortal\\Models\\EmployeePortal.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIA8wCUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:05:15.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EmployeePortal\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswHYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T03:56:36.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectAssignment.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortalEF\\ProjectAssignment.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Models\\EmployeePortalEF\\ProjectAssignment.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortalEF\\ProjectAssignment.cs",
+              "RelativeToolTip": "EmployeePortal\\Models\\EmployeePortalEF\\ProjectAssignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:57:49.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortalEF\\Project.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Models\\EmployeePortalEF\\Project.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortalEF\\Project.cs",
+              "RelativeToolTip": "EmployeePortal\\Models\\EmployeePortalEF\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:57:59.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeePortal\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:21:54.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortalEF\\Department.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Models\\EmployeePortalEF\\Department.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\EmployeePortalEF\\Department.cs",
+              "RelativeToolTip": "EmployeePortal\\Models\\EmployeePortalEF\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T04:45:28.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeePortal\\appsettings.json",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\appsettings.json",
+              "RelativeToolTip": "EmployeePortal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T07:34:33.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeePortal",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\EmployeePortal.csproj",
+              "RelativeDocumentMoniker": "EmployeePortal\\EmployeePortal.csproj",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\EmployeePortal.csproj",
+              "RelativeToolTip": "EmployeePortal\\EmployeePortal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-09T04:26:24.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Program.cs",
+              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Program.cs",
+              "RelativeToolTip": "EmployeePortal\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:19:17.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Index.cshtml",
@@ -160,111 +349,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortal\\Details.cshtml",
-              "RelativeDocumentMoniker": "EmployeePortal\\Views\\EmployeePortal\\Details.cshtml",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortal\\Details.cshtml",
-              "RelativeToolTip": "EmployeePortal\\Views\\EmployeePortal\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T13:03:57.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "EmployeePortal\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAMBcwBEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T12:19:27.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortal\\Index.cshtml",
-              "RelativeDocumentMoniker": "EmployeePortal\\Views\\EmployeePortal\\Index.cshtml",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\EmployeePortal\\Index.cshtml",
-              "RelativeToolTip": "EmployeePortal\\Views\\EmployeePortal\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T12:22:30.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeePortal\\appsettings.json",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\appsettings.json",
-              "RelativeToolTip": "EmployeePortal\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T07:34:33.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Program.cs",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Program.cs",
-              "RelativeToolTip": "EmployeePortal\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:19:17.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Models\\Employee.cs",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Models\\Employee.cs",
-              "RelativeToolTip": "EmployeePortal\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:21:26.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "EmployeePortal\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAIsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-22T12:00:56.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Services\\EmployeeService.cs",
-              "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "EmployeePortal\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:21:54.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Listing.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Listing.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Listing.cshtml",
@@ -272,19 +370,21 @@
               "RelativeToolTip": "EmployeePortal\\Views\\Employee\\Listing.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T09:10:40.78Z"
+              "WhenOpened": "2025-06-02T09:10:40.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Details.cshtml",
               "RelativeDocumentMoniker": "EmployeePortal\\Views\\Employee\\Details.cshtml",
               "ToolTip": "D:\\Hanodale\\Training\\EmployeePortal_Workable1\\EmployeePortal\\Views\\Employee\\Details.cshtml",
               "RelativeToolTip": "EmployeePortal\\Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T09:07:58.59Z"
+              "WhenOpened": "2025-06-02T09:07:58.59Z",
+              "EditorCaption": ""
             }
           ]
         }

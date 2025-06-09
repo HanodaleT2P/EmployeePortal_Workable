@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeePortal
 build_property.RootNamespace = EmployeePortal
@@ -20,16 +28,16 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Hanodale/Training/EmployeePortal_Workable1/EmployeePortal/Views/EmployeePortal/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQb3J0YWxcQ3JlYXRlLmNzaHRtbA==
+[D:/Hanodale/Training/EmployeePortal_Workable1/EmployeePortal/Views/EmployeePortalEF/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQb3J0YWxFRlxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hanodale/Training/EmployeePortal_Workable1/EmployeePortal/Views/EmployeePortal/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQb3J0YWxcRGV0YWlscy5jc2h0bWw=
+[D:/Hanodale/Training/EmployeePortal_Workable1/EmployeePortal/Views/EmployeePortalEF/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQb3J0YWxFRlxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hanodale/Training/EmployeePortal_Workable1/EmployeePortal/Views/EmployeePortal/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQb3J0YWxcSW5kZXguY3NodG1s
+[D:/Hanodale/Training/EmployeePortal_Workable1/EmployeePortal/Views/EmployeePortalEF/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQb3J0YWxFRlxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Hanodale/Training/EmployeePortal_Workable1/EmployeePortal/Views/Employee/Create.cshtml]

@@ -107,9 +107,9 @@ namespace EmployeePortal.Services
             }
         }
 
-        public List<Department> GetDepartments()
+        public List<Departments> GetDepartments()
         {
-            var list = new List<Department>();
+            var list = new List<Departments>();
 
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand("sp_GetDepartment", con))
@@ -121,7 +121,7 @@ namespace EmployeePortal.Services
                 {
                     while (dr.Read())
                     {
-                        list.Add(new Department
+                        list.Add(new Departments
                         {
                             DepartmentId = (int)dr["Department_Id"],
                             Name = dr["Name"].ToString(),
@@ -133,9 +133,9 @@ namespace EmployeePortal.Services
 
             return list;
         }
-        public List<Location> GetLocations()
+        public List<Locations> GetLocations()
         {
-            var list = new List<Location>();
+            var list = new List<Locations>();
 
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand("sp_GetLocation", con))
@@ -147,7 +147,7 @@ namespace EmployeePortal.Services
                 {
                     while (dr.Read())
                     {
-                        list.Add(new Location
+                        list.Add(new Locations
                         {
                             LocationId = (int)dr["Location_Id"],
                             Name = dr["Name"].ToString(),

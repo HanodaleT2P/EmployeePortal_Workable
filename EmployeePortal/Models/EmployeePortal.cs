@@ -6,6 +6,7 @@ namespace EmployeePortal.Models
 {
     public class Employees
     {
+        [Key]
         public int EmployeeId { get; set; }
 
         [Required(ErrorMessage = "Name is required")]
@@ -21,15 +22,21 @@ namespace EmployeePortal.Models
 
         [Required(ErrorMessage = "Department is required")]
         public int? DepartmentId { get; set; }  // Nullable int
+
+        public Departments Department { get; set; }
     }
 
 
     // File: Models/Department.cs
-    public class Department
+    public class Departments
     {
+        [Key]
         public int DepartmentId { get; set; }
         public string Name { get; set; }
         public int LocationId { get; set; }
+
+        public Locations Location { get; set; } // Optional nav
+        public ICollection<Employees> Employees { get; set; } // Optional reverse nav
     }
     public class EmployeeCreateViewModel
     {
@@ -39,35 +46,25 @@ namespace EmployeePortal.Models
     }
     public class EmployeeViewModel
     {
+        [Key]
         public int EmployeeId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public DateTime HireDate { get; set; }
         public string DepartmentName { get; set; }
+
+        
     }
     // File: Models/Location.cs
-    public class Location
+    public class Locations
     {
+       
         public int LocationId { get; set; }
         public string Name { get; set; }
         public string City { get; set; }
     }
 
-    // File: Models/Project.cs
-    public class Project
-    {
-        public int ProjectId { get; set; }
-        public string Name { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-    }
+    
 
-    // File: Models/ProjectAssignment.cs
-    public class ProjectAssignment
-    {
-        public int AssignmentId { get; set; }
-        public int EmployeeId { get; set; }
-        public int ProjectId { get; set; }
-        public DateTime AssignmentDate { get; set; }
-    }
+   
 }

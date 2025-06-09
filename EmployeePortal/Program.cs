@@ -1,10 +1,17 @@
+using EmployeePortal.Interfaces;
+using EmployeePortal.Models;
 using EmployeePortal.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<EmployeeADOService>();
+builder.Services.AddScoped<IEmployeeEFService, EmployeeEFService>();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
@@ -25,6 +32,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=EmployeePortal}/{action=Index}/{id?}");
+    pattern: "{controller=EmployeePortalEF}/{action=Index}/{id?}");
 
 app.Run();

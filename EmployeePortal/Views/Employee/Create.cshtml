@@ -70,7 +70,7 @@
 
 @* JQUERY WIHT AJAX Code *@
 
-@model EmployeePortal.Models.Employee
+@model EmployeePortal.Models.Employees
 <style>
     #name {
         font-size: 25px !important;
@@ -110,16 +110,7 @@
                         <input type="text" asp-for="Email" id="email" class="form-control" />
                         <div class="invalid-feedback">Please enter a valid email.</div>
                     </div>
-                    <div class="col-md-6">
-                        <label asp-for="Age" class="form-label">Age</label>
-                        <input asp-for="Age" type="number" class="form-control" id="age" />
-                        <div class="invalid-feedback">Please enter age.</div>
-                    </div>
-                    <div class="col-md-6">
-                        <label asp-for="Salary" class="form-label">Salary</label>
-                        <input asp-for="Salary" type="number" class="form-control" id="salary" />
-                        <div class="invalid-feedback">Please enter salary.</div>
-                    </div>
+                    
                 </div>
 
                 <div class="mt-4 text-end">
