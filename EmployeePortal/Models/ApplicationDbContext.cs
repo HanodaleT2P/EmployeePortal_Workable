@@ -65,10 +65,7 @@ public partial class ApplicationDbContext : DbContext
                 .HasMaxLength(100)
                 .HasColumnName("name");
 
-            entity.HasOne(d => d.Department).WithMany(p => p.Employees)
-                .HasForeignKey(d => d.DepartmentId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Department_Id");
+          
         });
 
         modelBuilder.Entity<Location>(entity =>
@@ -114,11 +111,7 @@ public partial class ApplicationDbContext : DbContext
                 .HasColumnName("assignmentDate");
             entity.Property(e => e.EmployeeId).HasColumnName("employee_id");
             entity.Property(e => e.ProjectId).HasColumnName("project_id");
-            entity.HasOne(pa => pa.Employee)
-                  .WithMany(e => e.ProjectAssignments)
-                  .HasForeignKey(pa => pa.EmployeeId)
-                  .OnDelete(DeleteBehavior.ClientSetNull)
-                  .HasConstraintName("FK_Employee_Id");
+            
 
             entity.HasOne(pa => pa.Project)
                   .WithMany(p => p.ProjectAssignments)

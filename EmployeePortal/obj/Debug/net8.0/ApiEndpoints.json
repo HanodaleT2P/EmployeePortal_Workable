@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
+    "Method": "Create",
+    "RelativePath": "api/EmployeeAPI/AddEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "EmployeePortal.Models.EmployeePortalEF.EmployeeAPICreateViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
+    "Method": "Update",
+    "RelativePath": "api/EmployeeAPI/EditEmployee/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "EmployeePortal.Models.EmployeePortalEF.EmployeeAPICreateViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
+    "Method": "GetDepartments",
+    "RelativePath": "api/EmployeeAPI/GetDepartmentList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
+    "Method": "Get",
+    "RelativePath": "api/EmployeeAPI/GetEmployeeById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
+    "Method": "GetAll",
+    "RelativePath": "api/EmployeeAPI/GetEmployeeList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

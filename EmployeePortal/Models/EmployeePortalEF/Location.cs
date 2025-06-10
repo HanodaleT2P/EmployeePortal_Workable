@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EmployeePortal.Models.EmployeePortalEF;
 
-public partial class Location
+public  class Location
 {
     public int LocationId { get; set; }
 

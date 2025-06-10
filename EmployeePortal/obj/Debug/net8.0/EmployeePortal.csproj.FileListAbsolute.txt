@@ -244,3 +244,8 @@ D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\re
 D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\EmployeePortal.pdb
 D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\EmployeePortal.genruntimeconfig.cache
 D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\ref\EmployeePortal.dll
+D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\EmployeePortal.MvcApplicationPartsAssemblyInfo.cs
