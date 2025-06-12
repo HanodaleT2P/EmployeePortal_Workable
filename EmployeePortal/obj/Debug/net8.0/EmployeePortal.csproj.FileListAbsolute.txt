@@ -249,3 +249,4 @@ D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\re
 D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\EmployeePortal.pdb
 D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\EmployeePortal.genruntimeconfig.cache
 D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\obj\Debug\net8.0\ref\EmployeePortal.dll
+D:\Hanodale\Training\EmployeePortal_Workable1\EmployeePortal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
