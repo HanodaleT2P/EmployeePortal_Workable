@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
-    "Method": "Create",
+    "Method": "AddEmployee",
     "RelativePath": "api/EmployeeAPI/AddEmployee",
     "HttpMethod": "POST",
     "IsController": true,
@@ -17,7 +17,7 @@
   },
   {
     "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
-    "Method": "Update",
+    "Method": "EditEmployee",
     "RelativePath": "api/EmployeeAPI/EditEmployee/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -48,7 +48,7 @@
   },
   {
     "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
-    "Method": "Get",
+    "Method": "GetEmployeeById",
     "RelativePath": "api/EmployeeAPI/GetEmployeeById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -64,7 +64,7 @@
   },
   {
     "ContainingType": "EmployeePortal.Controllers.EmployeeAPIController",
-    "Method": "GetAll",
+    "Method": "GetEmployeeList",
     "RelativePath": "api/EmployeeAPI/GetEmployeeList",
     "HttpMethod": "GET",
     "IsController": true,

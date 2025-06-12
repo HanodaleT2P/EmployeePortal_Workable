@@ -18,7 +18,7 @@ namespace EmployeePortal.Controllers
 
         // GET: api/EmployeeAPI
         [HttpGet("GetEmployeeList")]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetEmployeeList()
         {
             var employees = await _context.Employees
                 .Include(e => e.Department)
@@ -36,7 +36,7 @@ namespace EmployeePortal.Controllers
 
         // GET: api/EmployeeAPI/5
         [HttpGet("GetEmployeeById/{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> GetEmployeeById(int id)
         {
             var employee = await _context.Employees
                 .Include(e => e.Department)
@@ -60,7 +60,7 @@ namespace EmployeePortal.Controllers
 
         // POST: api/EmployeeAPI
         [HttpPost("AddEmployee")]
-        public async Task<IActionResult> Create(EmployeeAPICreateViewModel model)
+        public async Task<IActionResult> AddEmployee(EmployeeAPICreateViewModel model)
         {
             var employee = new Employee
             {
@@ -73,24 +73,12 @@ namespace EmployeePortal.Controllers
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
 
-            var department = await _context.Departments.FindAsync(employee.DepartmentId);
-
-            var result = new EmployeeEFViewModel
-            {
-                EmployeeId = employee.EmployeeId,
-                Name = employee.Name,
-                Email = employee.Email,
-                HireDate = employee.HireDate,
-                DepartmentId = employee.DepartmentId,
-                DepartmentName = department?.Name ?? "N/A"
-            };
-
-            return CreatedAtAction(nameof(Get), new { id = employee.EmployeeId }, result);
+            return Ok(employee);
         }
 
         // PUT: api/EmployeeAPI/5
         [HttpPut("EditEmployee/{id}")]
-        public async Task<IActionResult> Update(int id, EmployeeAPICreateViewModel model)
+        public async Task<IActionResult> EditEmployee(int id, EmployeeAPICreateViewModel model)
         {
             var employee = await _context.Employees.FindAsync(id);
             if (employee == null)
@@ -103,19 +91,9 @@ namespace EmployeePortal.Controllers
 
             await _context.SaveChangesAsync();
 
-            var department = await _context.Departments.FindAsync(employee.DepartmentId);
+            
 
-            var result = new EmployeeEFViewModel
-            {
-                EmployeeId = employee.EmployeeId,
-                Name = employee.Name,
-                Email = employee.Email,
-                HireDate = employee.HireDate,
-                DepartmentId = employee.DepartmentId,
-                DepartmentName = department?.Name ?? "N/A"
-            };
-
-            return Ok(result);
+            return Ok(employee);
         }
     }
 }
